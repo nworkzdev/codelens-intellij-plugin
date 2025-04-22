@@ -6,6 +6,7 @@
 [![Version](https://img.shields.io/jetbrains/plugin/v/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID)
 
+<!-- Plugin description -->
 ## Description:
 
 CodeLens is a visual debugging tool designed to help developers understand the execution flow of their Java code. It works by intercepting method calls at runtime and then visualizing those calls as a graph. This graph shows which methods were called, in what order, and how long they took to execute. In addition to tracking method calls, CodeLens also keeps track of the values of variables and arguments throughout the entire call chain.
@@ -23,13 +24,6 @@ The primary purpose of CodeLens is to make debugging and code analysis easier an
 * **Debug more efficiently.** Pinpoint the source of a bug by seeing the exact sequence of method calls and how variable values change.
 
 * **Track variable changes:** See how the values of arguments change throughout the method call chain.
-
-<!-- Plugin description -->
-This Fancy IntelliJ Platform Plugin is going to be your implementation of the brilliant ideas that you have.
-
-This specific section is a source for the [plugin.xml](/src/main/resources/META-INF/plugin.xml) file which will be extracted by the [Gradle](/build.gradle.kts) during the build process.
-
-To keep everything working, do not remove `<!-- ... -->` sections. 
 <!-- Plugin description end -->
 
 ## Installation
