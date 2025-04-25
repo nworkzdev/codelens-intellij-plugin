@@ -9,7 +9,7 @@
     <resource-bundle>messages.CodeLensBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.nworkzdev.codelens.plugin.toolWindow.CodeLensToolWindowFactory" id="CodeLensToolWindow"/>
+        <toolWindow factoryClass="com.nworkzdev.codelens.plugin.toolwindow.CodeLensToolWindowFactory" id="CodeLensToolWindow"/>
         <postStartupActivity implementation="com.nworkzdev.codelens.plugin.startup.CodeLensProjectActivity" />
     </extensions>
 </idea-plugin>
